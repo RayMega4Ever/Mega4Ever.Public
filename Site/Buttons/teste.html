@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
   <title>Botão com Imagens</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen">
   <style>
+    .corpo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .botao {
       display: inline-block;
       background-image: url('https://raw.githubusercontent.com/RayMega4Ever/Mega4Ever.Public/main/Site/Buttons/Clean-Normal.png');
-      width: 96px;
+      width: 192px;
       height: 32px;
       background-size: cover;
       border: none;
@@ -21,16 +23,20 @@
       font-size: 18px;
       color: black;
       position: relative;
-      top: -3px;
+      top: -5px;
     }
     
     .botao:active {
+      display: inline-block;
       background-image: url('https://raw.githubusercontent.com/RayMega4Ever/Mega4Ever.Public/main/Site/Buttons/Clean-Clicked.png');
+      width: 192px;
+      height: 32px;
+      background-size: cover;
+      border: none;
+      cursor: pointer;
     }
   </style>
-</head>
-<body>
-  <button class="botao"><center class = "pixeled-botao-black">Teste</center></button>
+<body class="corpo">
+<button class="botao"><center class = "pixeled-botao-black">Teste</center></button>
 </body>
-</html>
 
