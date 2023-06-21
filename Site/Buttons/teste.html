@@ -2,15 +2,26 @@
 <html>
 <head>
   <title>Botão com Imagens</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen">
   <style>
     .botao {
       display: inline-block;
       background-image: url('https://raw.githubusercontent.com/RayMega4Ever/Mega4Ever.Public/main/Site/Buttons/Clean-Normal.png');
-      width: 200px;
-      height: 50px;
+      width: 96px;
+      height: 32px;
       background-size: cover;
       border: none;
       cursor: pointer;
+    }
+    .pixeled-botao-black {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Silkscreen", Arial, sans-serif;
+      font-size: 18px;
+      color: black;
+      position: relative;
+      top: -3px;
     }
     
     .botao:active {
@@ -19,7 +30,7 @@
   </style>
 </head>
 <body>
-  <button class="botao">Teste</button>
+  <button class="botao"><center class = "pixeled-botao-black">Teste</center></button>
 </body>
 </html>
 
