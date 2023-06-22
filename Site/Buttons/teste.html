@@ -1,6 +1,14 @@
   <title>Botão com Imagens</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen">
   <style>
+    .pixeled-titulo-branco {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Silkscreen", Arial, sans-serif;
+      font-size: 45px;
+      color: white;
+    }
     .corpo {
       display: flex;
       justify-content: center;
@@ -11,8 +19,8 @@
       background-image: url('https://raw.githubusercontent.com/RayMega4Ever/Mega4Ever.Public/main/Site/Buttons/Clean-Normal-export.gif');
       width: 256px;
       height: 32px;
-      transform-origin: center;
       transform: scale(0.8);
+      transform-origin: center;
       background-size: cover;
       border: none;
       cursor: pointer;
@@ -27,20 +35,38 @@
       position: relative;
       top: -5px;
     }
+    .corpo.texto.white {
+      display: flex;
+      justify-content: justify;
+      align-items: justify;
+      font-family: "Silkscreen", Arial, sans-serif;
+      font-size: 18px;
+      color: white;
+      position: relative;
+    }
+    .corpo.texto.grey {
+      display: flex;
+      justify-content: justify;
+      align-items: justify;
+      font-family: "Silkscreen", Arial, sans-serif;
+      font-size: 18px;
+      color: dimgrey;
+      position: relative;
+    }
     
     .botao:active {
       display: inline-block;
       background-image: url('https://raw.githubusercontent.com/RayMega4Ever/Mega4Ever.Public/main/Site/Buttons/Clean-Clicked-export.gif');
        width: 256px;
       height: 32px;
-      transform-origin: center;
       transform: scale(0.8);
+      transform-origin: center;
       background-size: cover;
       border: none;
       cursor: pointer;
     }
   </style>
 <body class="corpo">
-<button class="botao"><center class = "pixeled-botao-black">Teste</center></button>
+    <center class = "pixeled-titulo-branco">Novos Jogos Velhas Memórias</center>
 </body>
 
